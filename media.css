@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+    .main-items h1 {
+        font-size: 40px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar input{
+        margin-top: 2vh;
+        width: 60%;
+    }
+    .search-bar button {
+        width: 30%;
+    }
+
+    .tranding-movies {
+        flex-wrap: wrap;
+    }
+
+    .tranding-movies ul li button {
+        width: 150px;
+        height: auto;
+    }
+
+    .movieimage img {
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        width: 50%;
+    }
+    .buttons {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .tranding-movies ul li button {
+        width: 197px;
+    }
+
+    .main-items {
+        width: 700px;
+    }
+    .footer-grid ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .tranding-movies {
+        gap: 12px;
+    }
+
+    .tranding-movies ul li button {
+        width: 120px;
+    }
+
+    .tranding-movies h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .reasons {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 50%;
+        max-width: 285px;
+    }
+
+    .footer-search-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-search-bar input{
+        margin-top: 2vh;
+        width: 60%;
+    }
+    .footer-search-bar button {
+        width: 30%;
+    }
+
+    .footer-grid ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-grid ul {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .footer-language select {
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    font-family: sans-serif;
+    body{
+        width: 100%;
+    overflow-x: hidden;
+    }
+}
+
+
+.background {
+    z-index: 2;
+}
+
+.main {
+    background-image: url(background.jpg);
+    height: 95vh;
+}
+
+/* .main .box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    
+}  */
+header .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.sign-in button {
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgb(229, 9, 20);
+    color: white;
+    border: none;
+}
+
+.main-items {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 13%;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 12vh;
+}
+
+
+
+.items {
+    padding-top: 35px;
+}
+
+.main-items h1 {
+    font-size: 60px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    height: 60px;
+    width: 430px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    background: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+.search-bar button {
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(229, 9, 20);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.section .tranding {
+    margin-left: 19%;
+    font-size: 40px;
+    margin-bottom: 4vh;
+}
+.movieimage button:hover{
+    cursor: pointer;
+    transition: all ease 1s;
+    transform: scale(1.03);
+}
+/* .tranding-movies ul li button {
+    height: 276px;
+    width: 197px;
+}
+
+.tranding-movies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} */
+.tranding-movies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.tranding-movies ul li button {
+    width: 150px;
+    max-width: 100%;
+}
+.tranding-movies button {
+    border-radius: 10px;
+    border: none;
+}
+
+.movieimage img {
+    border-radius: 10px;
+}
+
+.tranding-movies h1 {
+    margin-top: -50%;
+    margin-left: -92%;
+    color: black;
+    text-shadow: 2px 2px 2px  white;
+    font-size: 80px;
+}
+
+.movie-section {
+    padding-top: 2%;
+    background: #000;
+    color: white;
+}
+.line{
+    height: 5px;
+    width: 100%;
+     background: linear-gradient(rgb(57, 0, 67), rgb(203, 50, 50));
+    /* margin-top: -38px; */
+}
+.reasons-heading {
+    margin-left: 19%;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 2vh;
+}
+
+.reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    height: 290px;
+    width: 250px;
+    background: linear-gradient(rgb(17, 7, 57), rgb(58, 0, 61));
+    color: white;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+.questions {
+    margin-top: 50px;
+    margin-left: 20%;
+
+
+}
+
+.q-a-heading {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(45, 45, 45);
+    width: 75%;
+    border: none;
+}
+
+.buttons:hover {
+    background: #444444;
+    transition: all ease 1s;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 2vh;
+}
+
+.footer-search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-search-bar input {
+    height: 60px;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    background: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+}
+
+.footer-search-bar button {
+    height: 60px;
+    width: 200px;
+    background: rgb(229, 9, 20);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.footer-grid ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+}
+
+.footer-grid ul li {
+    list-style: none;
+}
+
+.footer-grid ul li a {
+    color: #444444;
+}
+
+.search-bar input,
+.search-bar button,
+.footer-search-bar input,
+.footer-search-bar button {
+    max-width: 100%;
+}
+
+.footer-language {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.footer-language select {
+    background: rgba(22, 22, 22, 0.8);
+    color: white;
+    border: 1px solid #555;
+    padding: 12px 40px 12px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Remove default arrow (Chrome / Edge) */
+.footer-language select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Custom dropdown arrow */
+.footer-language {
+    position: relative;
+}
+
+.footer-language::after {
+    content: "▼";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+}
+.other{
+    margin-top:5vh ;
+    margin-left: 5vw;
+}
+.other p{
+    margin: 0;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+}
